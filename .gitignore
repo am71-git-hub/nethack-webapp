@@ -1,0 +1,25 @@
+node_modules/
+dist/
+dist-sandbox/
+.vite/
+coverage/
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Vendored engine build artifacts (phase not in v0.1)
+vendor/nethack/targets/
