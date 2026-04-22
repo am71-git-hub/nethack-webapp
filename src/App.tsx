@@ -5,16 +5,26 @@ export function App() {
         minHeight: '100vh',
         display: 'grid',
         placeItems: 'center',
-        background: '#0d0014',
-        color: '#e7d7ff',
-        fontFamily: 'ui-monospace, monospace',
+        padding: 'var(--space-6)',
       }}
     >
       <div style={{ textAlign: 'center', lineHeight: 1.6 }}>
-        <h1 style={{ margin: 0, color: '#c084fc', letterSpacing: '0.05em' }}>nethack-webapp</h1>
-        <p style={{ opacity: 0.7, marginTop: '0.5rem' }}>Phase 1 · scaffold</p>
-        <p style={{ fontSize: '0.85rem', opacity: 0.5, marginTop: '2rem' }}>
-          <code>/sandbox</code> workbench → <a style={{ color: '#c084fc' }} href="/sandbox.html">sandbox.html</a>
+        <h1
+          style={{
+            margin: 0,
+            color: 'var(--color-accent-hi)',
+            fontFamily: 'var(--font-bios)',
+            fontSize: '2.5rem',
+            letterSpacing: '0.05em',
+          }}
+        >
+          nethack-webapp
+        </h1>
+        <p style={{ color: 'var(--color-fg-muted)', marginTop: 'var(--space-2)' }}>
+          Phase 2 · theme + fonts
+        </p>
+        <p style={{ fontSize: '0.85rem', color: 'var(--color-fg-dim)', marginTop: 'var(--space-6)' }}>
+          Sandbox workbench → <a href="/sandbox.html">sandbox.html</a>
         </p>
       </div>
     </main>

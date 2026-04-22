@@ -15,12 +15,12 @@ Update this file in the same commit that finishes a box. Keep it honest.
 - [x] Create gh repo `am71-git-hub/nethack-webapp`; push
 - [x] Verify `npm run dev` renders placeholder
 
-## Phase 2 — Theme + fonts
-- [ ] Download PxPlus IBM VGA 9x16 + Cascadia Mono WOFF2 into `public/fonts/`
-- [ ] Add `@font-face` declarations
-- [ ] Define `src/theme/theme.ts` purple palette + spacing tokens
-- [ ] Define `src/theme/xterm-theme.ts` ANSI palette tinted purple
-- [ ] Sandbox page: render every theme token as a swatch
+## Phase 2 — Theme + fonts  ✅
+- [x] Acquire PxPlus IBM VGA 9x16 (woff) + Cascadia Mono (fontsource, latin subset)
+- [x] Add `@font-face` declaration for PxPlus in `src/theme/global.css`
+- [x] Define `src/theme/theme.ts` purple palette + spacing/radii/fontSizes tokens
+- [x] Define `src/theme/xterm-theme.ts` 16-color ANSI palette tinted purple
+- [x] Sandbox page `#theme` renders every theme token as a swatch + specimen
 
 ## Phase 3 — Commands registry
 - [ ] Port all commands from HELP.md (née TUTORIAL.md) into `src/ui/commands.ts`
