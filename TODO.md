@@ -4,16 +4,16 @@ Legend: `[ ]` pending · `[~]` in progress · `[x]` done
 
 Update this file in the same commit that finishes a box. Keep it honest.
 
-## Phase 1 — Scaffold & docs
+## Phase 1 — Scaffold & docs  ✅
 - [x] Init Vite + TS + React at `~/am71/games/nethack-web`
 - [x] ESLint + Prettier + strict tsconfig
 - [x] Write CLAUDE.md, PLAN.md, TODO.md, COMPACT.md, HELP.md, README.md
 - [x] Create `sandbox.html` + `src/sandbox/index.tsx` placeholder
 - [x] Add .gitignore, .editorconfig
 - [x] Add LICENSE
-- [ ] `git init`; first commit
-- [ ] Create gh repo `am71-git-hub/nethack-webapp`; push
-- [ ] Verify `npm run dev` renders placeholder
+- [x] `git init`; first commit (176e3e6)
+- [x] Create gh repo `am71-git-hub/nethack-webapp`; push
+- [x] Verify `npm run dev` renders placeholder
 
 ## Phase 2 — Theme + fonts
 - [ ] Download PxPlus IBM VGA 9x16 + Cascadia Mono WOFF2 into `public/fonts/`
