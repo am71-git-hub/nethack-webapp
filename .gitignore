@@ -4,6 +4,7 @@ dist-sandbox/
 .vite/
 coverage/
 *.local
+*.tsbuildinfo
 
 # Editor / OS
 .vscode/*
