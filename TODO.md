@@ -22,10 +22,10 @@ Update this file in the same commit that finishes a box. Keep it honest.
 - [x] Define `src/theme/xterm-theme.ts` 16-color ANSI palette tinted purple
 - [x] Sandbox page `#theme` renders every theme token as a swatch + specimen
 
-## Phase 3 — Commands registry
-- [ ] Port all commands from HELP.md (née TUTORIAL.md) into `src/ui/commands.ts`
-- [ ] Unit test: every command has id, label, key, description, group
-- [ ] Unit test: no duplicate keys within a group
+## Phase 3 — Commands registry  ✅
+- [x] Port all commands from HELP.md into `src/ui/commands.ts`
+- [x] Unit test: every command has id, label, key, description, group
+- [x] Unit test: no duplicate keys within a layout (and no universal vs layout collisions)
 
 ## Phase 4 — Button groups
 - [ ] `Button` component (modes: icon / label / label+badge)
